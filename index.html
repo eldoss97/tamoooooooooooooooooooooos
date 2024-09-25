@@ -14,8 +14,6 @@
             <img src="tamosphoto/tamos.png" alt="Эмблема школы" class="school-logo">
             <h1>Оспан Ғабит</h1>
             <p>Маған дауыс беріп мектебімізді жақсартуға көмектес!</p>
-            <button id="voteButton" class="cta-button">Қазір дауыс бер!</button>
-            <p id="voteCount">Дауыс саны: 0</p>
         </div>
     </header>
 
@@ -62,15 +60,7 @@
         <p>&copy;2024 мектеп президенттілігін сайлау кампаниясы. Сайтты жасаған Болатбеков Елдос</p>
     </footer>
 
-    <script>
-        let votes = 0; // Переменная для хранения количества голосов
-
-        // Функция для обработки голосования
-        document.getElementById('voteButton').addEventListener('click', function() {
-            votes++; // Увеличиваем количество голосов
-            document.getElementById('voteCount').textContent = 'Дауыс саны: ' + votes; // Обновляем текст
-        });
-    </script>
+    
 
 </body>
 </html>
